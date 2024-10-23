@@ -13,6 +13,10 @@ class employee_details
     }
 };
 
+class obj
+{
+    
+}
 int main ()
 {
     employee_details ram(28, "software engineer");
