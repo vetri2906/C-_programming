@@ -16,10 +16,10 @@ class employee_details
 class say_hello {
   public:
     int a;
-    say_hello();
+    say_hello(); // constructor
 };
 
-say_hello::say_hello()
+say_hello::say_hello() // constructor object definition outside class
 {
   cout <<"hello\n";
 }
@@ -27,6 +27,6 @@ say_hello::say_hello()
 int main ()
 {
     say_hello vetri;
-    employee_details ram(28, "software engineer");
+    employee_details ram(28, "software engineer"); 
     cout << "my age is : " << ram.age << "\nmy designation is " << ram.role<<"\n";
 }
